@@ -1,10 +1,14 @@
 #include <iostream>
 
-// Encapsulation - Binding the data and the functions that manipulate the data into a single unit
-
+// Abstraction : Hiding the complexicity and showing the essential features of the object.
 using namespace std;
 
-class Employee
+class Abstract_Emplpoyee
+{
+    virtual void AskForPromotion() = 0;
+};
+
+class Employee : Abstract_Emplpoyee
 {
 private:
     string Name;
@@ -33,7 +37,8 @@ public:
 
     void setAge(int age)
     {
-        Age = age;
+        if (age >= 18) // Validation | Restrictions
+            Age = age;
     }
     int getAge()
     {
@@ -52,18 +57,23 @@ public:
         Company = company;
         Age = age;
     }
+    void AskForPromotion()
+    {
+        if (Age > 30)
+            cout << Name << " got promoted!" << endl;
+        else
+            cout << Name << " sorry, No promotion for you!" << endl;
+    }
 };
 
 int main()
 {
     Employee employee1 = Employee("Shubham", "TikTok", 23);
-    employee1.Introduce_Yourself();
 
     Employee employee2 = Employee("John", "Amazon", 30);
-    employee2.Introduce_Yourself();
 
-    employee1.setAge(30);
-    cout << employee1.getName() << " is " << employee1.getAge() << " years old." << endl;
+    employee1.AskForPromotion();
+    employee2.AskForPromotion();
 
     return 0;
 }

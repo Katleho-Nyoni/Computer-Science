@@ -66,14 +66,30 @@ public:
     }
 };
 
+class Developer : Employee
+{ // Inheritance
+public:
+    string FavProgrammingLanguage;
+    Developer(string name, string company, int age, string favProgrammingLanguage) : Employee(name, company, age)
+    {
+        FavProgrammingLanguage = favProgrammingLanguage;
+    }
+    void Fix_Bug()
+    {
+        cout << getName() << " fixed bug using " << FavProgrammingLanguage << endl;
+    }
+};
+
 int main()
 {
     Employee employee1 = Employee("Shubham", "TikTok", 23);
 
-    Employee employee2 = Employee("John", "Amazon", 30);
+    Employee employee2 = Employee("John", "Amazon", 35);
 
     employee1.AskForPromotion();
     employee2.AskForPromotion();
 
+    Developer Dev = Developer("Shubham", "TikTok", 23, "C++");
+    Dev.Fix_Bug();
     return 0;
 }

@@ -64,9 +64,14 @@ public:
         else
             cout << Name << " sorry, No promotion for you!" << endl;
     }
+
+    virtual void Work()
+    {
+        cout << Name << " is checking email, task backlog, performing tasks..." << endl;
+    }
 };
 
-class Developer : Employee
+class Developer : public Employee
 { // Inheritance
 public:
     string FavProgrammingLanguage;
@@ -77,6 +82,10 @@ public:
     void Fix_Bug()
     {
         cout << getName() << " fixed bug using " << FavProgrammingLanguage << endl;
+    }
+    void Work()
+    {
+        cout << getName() << " is writing " << FavProgrammingLanguage << " code." << endl;
     }
 };
 
@@ -91,5 +100,11 @@ int main()
 
     Developer Dev = Developer("Shubham", "TikTok", 23, "C++");
     Dev.Fix_Bug();
+    Dev.AskForPromotion();
+    Dev.Work();
+
+    Employee *e1 = &Dev;
+    e1->Work();
+    
     return 0;
 }

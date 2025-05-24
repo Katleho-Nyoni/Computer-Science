@@ -8,4 +8,4 @@ It includes using and learning the languages :
 - C++
 - Python
 
-The learning was mostly practical, focusing on how to implement these in the respective languages. but I have currently passed and focusing on learning the theoretical aspects of CS.
+The learning was mostly practical, focusing on how to implement these in the respective languages. but I have currently paused and focusing on learning the theoretical aspects of CS.

@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "variables.C": "cpp",
+        "iostream": "cpp",
+        "typeinfo": "cpp"
+    }
+}

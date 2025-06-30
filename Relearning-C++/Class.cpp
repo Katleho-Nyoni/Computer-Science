@@ -26,6 +26,16 @@ public:
         author = Author;
         pages = Pages;
     }
+
+    string bookGenre()
+    { // This is an Object
+        if (pages < 100)
+            return "Short Story";
+        else if (pages < 300)
+            return "Novel";
+        else
+            return "Philosophy";
+    }
 };
 
 int main()
@@ -39,6 +49,7 @@ int main()
 
     Book book2("The Republic", "Plato", 300);
     cout << "Title: " << book2.title << endl;
+    cout << "Genre:" << book2.bookGenre() << endl;
 
     return 0;
 }

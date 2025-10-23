@@ -1,5 +1,4 @@
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-
+<img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="55" height="65" /> <img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="icon" width="85" height="85" />
 # DESCRIPTION
 
 This repository reflects some of my learning journey into learning theoretical & practical aspects of Computer Science(CS) such as Object Oriented Programming(OOP), Data Structures and Algorithms(DSA).

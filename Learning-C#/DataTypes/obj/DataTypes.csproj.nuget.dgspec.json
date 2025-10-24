@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LordEagle\\Documents\\GitHub\\Computer-Science\\Learning-C#\\Learning-C#.csproj": {}
+    "C:\\Users\\LordEagle\\Documents\\GitHub\\Computer-Science\\Learning-C#\\DataTypes\\DataTypes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LordEagle\\Documents\\GitHub\\Computer-Science\\Learning-C#\\Learning-C#.csproj": {
+    "C:\\Users\\LordEagle\\Documents\\GitHub\\Computer-Science\\Learning-C#\\DataTypes\\DataTypes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LordEagle\\Documents\\GitHub\\Computer-Science\\Learning-C#\\Learning-C#.csproj",
-        "projectName": "Learning-C#",
-        "projectPath": "C:\\Users\\LordEagle\\Documents\\GitHub\\Computer-Science\\Learning-C#\\Learning-C#.csproj",
+        "projectUniqueName": "C:\\Users\\LordEagle\\Documents\\GitHub\\Computer-Science\\Learning-C#\\DataTypes\\DataTypes.csproj",
+        "projectName": "DataTypes",
+        "projectPath": "C:\\Users\\LordEagle\\Documents\\GitHub\\Computer-Science\\Learning-C#\\DataTypes\\DataTypes.csproj",
         "packagesPath": "C:\\Users\\LordEagle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LordEagle\\Documents\\GitHub\\Computer-Science\\Learning-C#\\obj\\",
+        "outputPath": "C:\\Users\\LordEagle\\Documents\\GitHub\\Computer-Science\\Learning-C#\\DataTypes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LordEagle\\AppData\\Roaming\\NuGet\\NuGet.Config"

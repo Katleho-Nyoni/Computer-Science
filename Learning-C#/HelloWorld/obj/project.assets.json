@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LordEagle\\Documents\\GitHub\\Computer-Science\\Learning-C#\\Learning-C#.csproj",
-      "projectName": "Learning-C#",
-      "projectPath": "C:\\Users\\LordEagle\\Documents\\GitHub\\Computer-Science\\Learning-C#\\Learning-C#.csproj",
+      "projectUniqueName": "C:\\Users\\LordEagle\\Documents\\GitHub\\Computer-Science\\Learning-C#\\HelloWorld\\HelloWorld.csproj",
+      "projectName": "HelloWorld",
+      "projectPath": "C:\\Users\\LordEagle\\Documents\\GitHub\\Computer-Science\\Learning-C#\\HelloWorld\\HelloWorld.csproj",
       "packagesPath": "C:\\Users\\LordEagle\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LordEagle\\Documents\\GitHub\\Computer-Science\\Learning-C#\\obj\\",
+      "outputPath": "C:\\Users\\LordEagle\\Documents\\GitHub\\Computer-Science\\Learning-C#\\HelloWorld\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LordEagle\\AppData\\Roaming\\NuGet\\NuGet.Config"

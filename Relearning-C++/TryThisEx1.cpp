@@ -9,10 +9,19 @@ Chapter 3: Objects, Types, and Values
 
 int main()
 {
-    using namespace std;
-    char b = char('a'+1);
-    char a = 'a';
-    cout << a << "\n";
-    cout << b << "\n";
+    // using namespace std;
+    // Page 92
+    char A = 'a';
+    int Aa = A;
+    int B = 'b';
+    int C = char('a'+1);
+    printf("The value of 'a' & 'b' is %i & %c respectively.\n",Aa,B);
+    printf("It is said that 'b' = char('a'+1): %i \n",C);
+
+    printf("************************************************************ \n");
+    char letters[] = {'a','b','c','z'} ;
+    for(int i : letters){
+        printf("%c \t %i \n",letters[i],i);
+    }
     return 0;
 }

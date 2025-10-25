@@ -23,7 +23,7 @@ int main()
         {
             cout << arr2D[i][j] << " ";
         }
-        cout << endl;
+        // cout << endl;
     }
 
     return 0;

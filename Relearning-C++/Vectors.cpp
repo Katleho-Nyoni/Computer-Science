@@ -32,3 +32,9 @@ int main(){
     return 0;
 }
 
+/**
+ * OPERATIONS ON VECTORS
+ * 
+ * push back :
+ * using the push_back(v) , you can expand the vector where v will not be at the vector[end] index.
+ */

@@ -17,9 +17,6 @@ int main(){
     
     for(int i = 0; i < v0.size(); ++i){
         cout << v0[i] << '\n';
-        for(int i = 0; i < v0.size(); ++i){
-        cout << i << '\n';
-        }
     }
 
     printf("************************************************** \n");
@@ -28,6 +25,10 @@ int main(){
         cout << x << '\n';
     }
 
+    printf("************************************************** \n");
+
+    vector<string> philosopher = {"Kant", "Plato", "Hume", "Kierkegaard"};
+    cout << philosopher[2] << '\n';
     return 0;
 }
 
